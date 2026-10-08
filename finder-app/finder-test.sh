@@ -2,6 +2,12 @@
 # Tester script for assignment 1 and assignment 2
 # Author: Siddhant Jajoo
 
+# Clean previous build artifacts
+make clean
+
+# Compile the writer.c utility as a native application
+make
+
 set -e
 set -u
 
